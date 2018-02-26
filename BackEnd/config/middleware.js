@@ -50,8 +50,8 @@ module.exports.http = {
   customMiddleware: function(app) {
  
     passport.use(new FacebookStrategy({
-      clientID: "", // Use your Facebook App Id
-      clientSecret: "", // Use your Facebook App Secret
+      clientID: "150339478964178", // Use your Facebook App Id
+      clientSecret: "2bfa04e8ec5bd4d2d37952f5aff5d222", // Use your Facebook App Secret
       callbackURL: "http://localhost:1337/callback"
     }, verifyHandler));
  
