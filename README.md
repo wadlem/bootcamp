@@ -4,7 +4,7 @@ the goal of this project is to get used to sailsjs and vue js
 
 ## test the app
 
-(Don't forget to add your Facebook Id and Facebook App Secret)
+(Don't forget to add your Facebook Id and Facebook App Secret on config/middleware.js)
 
 ### BackEnd
 
